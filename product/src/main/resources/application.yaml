@@ -1,13 +1,13 @@
 # ?????? ??
 server:
-  port=80
+  port: 81
 
 # MySQL ?? ??
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url:jdbc: mysql://localhost:3306/shoppingmall_project?serverTimezone=UTC
-    username: root
+    url: jdbc:mysql://localhost:3306/shop?serverTimezone=UTC
+    username: shop_admin
     password: 1234
 
 
